@@ -1,0 +1,145 @@
+@mobile: ~"only screen and (max-width: 480px)";
+
+@media @mobile {
+  .header {
+    padding: 15px;
+    min-height: 30px;
+    width: 100%;
+    color: @white;
+    background-image: linear-gradient(
+      to bottom,
+      @primaryColor 10%,
+      @secondaryColor
+    );
+
+    h2 {
+      margin-left: 3%;
+    }
+  }
+
+  .event {
+    margin: 20px 0;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form-section {
+      background-color: @white;
+      padding: 10px 5px;
+      box-shadow: 3px 3px 8px 5px @shadowColor;
+      margin: 20px 10px;
+
+      .form-heading {
+        color: @headingColor;
+      }
+
+      .form-control {
+        display: flex;
+        flex-direction: column;
+        margin: 25px 5px;
+
+        .text-area-box {
+          flex: 1 1 99%;
+          padding-bottom: 20px;
+          position: relative;
+
+          .control-area {
+            width: 99%;
+            border: 2px solid @light-gray;
+
+            &::placeholder {
+              color: #bbb;
+              padding: 5px;
+            }
+          }
+        }
+
+        .sm-control {
+          min-height: 25px;
+          border: 2px solid @light-gray;
+          flex: 0 1 10%;
+          margin-right: 5px;
+          margin-top: 5px;
+
+          &::placeholder {
+            color: #bbb;
+            padding: 5px;
+          }
+        }
+
+        .control {
+          float: left;
+          min-height: 25px;
+          flex: 0 1 99%;
+          border: 2px solid @light-gray;
+
+          &::placeholder {
+            color: #bbb;
+            padding: 5px;
+          }
+        }
+
+        .date-control {
+          float: left;
+          min-height: 25px;
+          flex: 0 1 34%;
+          border: 2px solid @light-gray;
+          padding-left: 5px;
+        }
+
+        .text-separator {
+          margin: 5px 10px;
+        }
+
+        .time-control {
+          float: left;
+          min-height: 25px;
+          flex: 0 1 20%;
+          border: 2px solid @light-gray;
+          padding-left: 5px;
+        }
+
+        label {
+          text-transform: uppercase;
+          height: 20px;
+          flex: 1 1 99%;
+          font-size: 12px;
+          clear: both;
+          float: left;
+          text-align: left;
+          color: @secondaryColor;
+          margin: 5px 0;
+        }
+
+        .text {
+          color: rgb(49, 49, 49);
+          margin: 8px 0px;
+        }
+
+        .error {
+          color: @white;
+          margin: 10px 15px;
+          background: @dark-red;
+          padding: 5px 8px;
+          font-size: 12px;
+          display: inline-table;
+          position: relative;
+          text-align: center;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: -15px;
+            width: 0px;
+            height: 0px;
+            border-left: 8px solid transparent;
+            border-bottom: 8px solid @dark-red;
+            border-right: 8px solid transparent;
+          }
+        }
+      }
+    }
+  }
+}

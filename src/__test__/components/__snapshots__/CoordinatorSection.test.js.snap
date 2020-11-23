@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Coordinator section correctly 1`] = `
+<div
+  className="form-section"
+>
+  <h2
+    className="separator form-heading"
+  >
+    Coordinator
+  </h2>
+  <div
+    className="form-control"
+  >
+    <label>
+      responsible: *
+    </label>
+    <select
+      className="control null "
+      name="coordinator"
+      onChange={[Function]}
+    >
+      <option
+        value=""
+      >
+        Select Responsible
+      </option>
+      <option
+        key="0"
+        value="daniel.mitchell@hussa.rs-0"
+      >
+        Daniel
+         
+        Mitchell
+      </option>
+      <option
+        key="1"
+        value="albert.alexander@hussa.rs-1"
+      >
+        Albert
+         
+        Alexander
+      </option>
+      <option
+        key="2"
+        value="philip.hughes@hussa.rs-2"
+      >
+        Philip
+         
+        Hughes
+      </option>
+      <option
+        key="3"
+        value="walter.nelson@hussa.rs-3"
+      >
+        Walter
+         
+        Nelson
+      </option>
+      <option
+        key="4"
+        value="ashley.hernandez@hussa.rs-4"
+      >
+        Ashley
+         
+        Hernandez
+      </option>
+      <option
+        key="5"
+        value="donna.washington@hussa.rs-5"
+      >
+        Donna
+         
+        Washington
+      </option>
+      <option
+        key="6"
+        value="andrew.white@hussa.rs-6"
+      >
+        Andrew
+         
+        White
+      </option>
+      <option
+        key="7"
+        value="sharon.allen@hussa.rs-7"
+      >
+        Sharon
+         
+        Allen
+      </option>
+      <option
+        key="8"
+        value="russell.parker@hussa.rs-8"
+      >
+        Russell
+         
+        Parker
+      </option>
+      <option
+        key="9"
+        value="janet.stewart@hussa.rs-9"
+      >
+        Janet
+         
+        Stewart
+      </option>
+    </select>
+  </div>
+  <div
+    className="form-control"
+  >
+    <label>
+      email: 
+    </label>
+    <input
+      className="control null"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email"
+      type="email"
+      value=""
+    />
+  </div>
+</div>
+`;

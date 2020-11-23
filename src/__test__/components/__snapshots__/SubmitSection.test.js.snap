@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Success section correctly 1`] = `
+<div
+  className="submit"
+>
+  <button
+    type="submit"
+  >
+    publish event
+  </button>
+</div>
+`;

@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render About section correctly 1`] = `
+<div
+  className="form-section"
+>
+  <h2
+    className="separator form-heading"
+  >
+    About
+  </h2>
+  <div
+    className="form-control"
+  >
+    <label>
+      title: *
+    </label>
+    <input
+      className="control null"
+      name="title"
+      onChange={[Function]}
+      placeholder="Make it short and clear"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-control"
+  >
+    <label>
+      description: *
+    </label>
+    <div
+      className="text-area-box"
+    >
+      <textarea
+        className="control-area null"
+        maxLength={140}
+        name="description"
+        onChange={[Function]}
+        placeholder="write about your event, be creative"
+        rows="10"
+        type="text"
+        value=""
+      />
+      <div
+        className="text-counter"
+      >
+        <p>
+          Max characters allowed
+        </p>
+      </div>
+      <div
+        className="counter"
+      >
+        <p>
+          140
+          /140
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="form-control"
+  >
+    <label>
+      category:
+    </label>
+    <select
+      className="control"
+      name="category_id"
+      onChange={[Function]}
+    >
+      <option
+        value=""
+      >
+        Select Category
+      </option>
+      <option
+        key="0"
+        value={0}
+      >
+        Cycling
+      </option>
+      <option
+        key="1"
+        value={1}
+      >
+        Hiking
+      </option>
+      <option
+        key="2"
+        value={2}
+      >
+        Cooking
+      </option>
+      <option
+        key="3"
+        value={3}
+      >
+        Rock climbing
+      </option>
+      <option
+        key="4"
+        value={4}
+      >
+        Yoga
+      </option>
+      <option
+        key="5"
+        value={5}
+      >
+        Fencing
+      </option>
+      <option
+        key="6"
+        value={6}
+      >
+        Swimming
+      </option>
+      <option
+        key="7"
+        value={7}
+      >
+        Badminton
+      </option>
+      <option
+        key="8"
+        value={8}
+      >
+        Running
+      </option>
+      <option
+        key="9"
+        value={9}
+      >
+        Dance
+      </option>
+    </select>
+  </div>
+  <div
+    className="form-control"
+  >
+    <label>
+      payment:
+    </label>
+    <div
+      className="radio-group"
+    >
+      <input
+        className="radio-control"
+        name="event_type"
+        onChange={[Function]}
+        type="radio"
+        value="free"
+      />
+      Free event
+      <input
+        className="radio-control"
+        name="event_type"
+        onChange={[Function]}
+        type="radio"
+        value="paid"
+      />
+      Paid event
+    </div>
+  </div>
+  <div
+    className="form-control"
+  >
+    <label>
+      reward:
+    </label>
+    <input
+      className="sm-control"
+      min={0}
+      name="reward"
+      onChange={[Function]}
+      placeholder="Number"
+      type="number"
+      value=""
+    />
+    <p
+      className="text"
+    >
+      reward points for attendance
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Coordinator section correctly 1`] = `
+<div
+  className="form-section"
+>
+  <h2
+    className="separator form-heading"
+  >
+    When
+  </h2>
+  <div
+    className="form-control"
+  >
+    <label>
+      starts on: *
+    </label>
+    <input
+      className="date-control null "
+      name="date"
+      onChange={[Function]}
+      type="date"
+    />
+    <span
+      className="text-separator"
+    >
+      at
+    </span>
+    <input
+      className="time-control null "
+      name="event_time"
+      onChange={[Function]}
+      type="time"
+    />
+  </div>
+  <div
+    className="form-control"
+  >
+    <label>
+      duration:
+    </label>
+    <input
+      className="sm-control"
+      min={1}
+      name="duration"
+      onChange={[Function]}
+      placeholder="Number"
+      type="number"
+      value=""
+    />
+    <p
+      className="text"
+    >
+      hour
+    </p>
+  </div>
+</div>
+`;
